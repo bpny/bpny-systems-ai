@@ -1,0 +1,9 @@
+{
+  "name": "bpny-systems-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static landing page for BPNY Systems & AI, with an edge A/B test between two designs.",
+  "devDependencies": {
+    "@vercel/edge": "^1.3.1"
+  }
+}
