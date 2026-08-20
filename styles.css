@@ -1,5 +1,5 @@
-/* BPNY Systems & AI — Variant B ("Buffalo Built")
-   A/B test redesign. Variant A lives in styles.css / index.html. */
+/* BPNY Systems & AI — Buffalo Built, nationwide
+   Origin and work ethic from the 716; service area is any U.S. market. */
 
 :root {
   /* Buffalo palette */
@@ -443,8 +443,48 @@ h1, h2, h3, p { margin-top: 0; }
 .play h3 { font-family: var(--display); font-size: 1.2rem; margin: 0 0 10px; }
 .play p { color: rgba(255, 255, 255, 0.74); line-height: 1.6; margin: 0; }
 
-/* ---------- Local flavor ---------- */
+/* ---------- Who it's for ---------- */
+.who { background: #fff; }
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.who-card {
+  padding: 28px 26px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--gold);
+  box-shadow: var(--shadow-sm);
+}
+.who-card .badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 1.7rem;
+}
+.who-card h3 {
+  font-family: var(--display);
+  font-size: 1.16rem;
+  margin: 0 0 10px;
+  color: var(--navy);
+}
+.who-card p { color: var(--muted); line-height: 1.6; margin: 0; }
+
+/* ---------- Local flavor / Buffalo Built ---------- */
 .local { background: linear-gradient(180deg, var(--snow), #fff); }
+.reach-banner {
+  margin: 0 0 28px;
+  padding: 16px 22px;
+  border-radius: 12px;
+  background: var(--navy);
+  color: #fff;
+  font-family: var(--sport);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+}
 .local-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -616,7 +656,7 @@ input:focus, select:focus, textarea:focus {
   .scoreboard-inner { grid-template-columns: repeat(2, 1fr); }
   .score:nth-child(2) { border-right: 0; }
   .score:nth-child(1), .score:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.08); }
-  .service-grid, .drive, .local-grid { grid-template-columns: 1fr; }
+  .service-grid, .drive, .local-grid, .who-grid { grid-template-columns: 1fr; }
   .section-head, .about-grid, .contact-grid { grid-template-columns: 1fr; }
   .contact-copy { position: static; }
 }
