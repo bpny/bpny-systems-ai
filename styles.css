@@ -444,7 +444,7 @@ h1, h2, h3, p { margin-top: 0; }
 .play p { color: rgba(255, 255, 255, 0.74); line-height: 1.6; margin: 0; }
 
 /* ---------- Who it's for ---------- */
-.who { background: #fff; }
+section.who { background: #fff; }
 .who-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
