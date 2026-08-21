@@ -536,13 +536,18 @@ section.who { background: #fff; }
   color: #fff;
   box-shadow: var(--shadow);
 }
-.about-card .who {
+.about-card p {
+  background: transparent;
+}
+.about-card .about-kicker {
+  display: inline-block;
+  margin: 0 0 8px;
+  background: none;
   font-family: var(--sport);
   font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 8px;
 }
 .about-card .name { font-family: var(--display); font-size: 1.6rem; margin: 0 0 4px; }
 .about-card .loc { color: rgba(255, 255, 255, 0.72); font-size: 0.95rem; }
