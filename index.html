@@ -3,491 +3,330 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BPNY Systems &amp; AI | Buffalo-Built IT and AI for Teams Across the U.S.</title>
+    <title>BPNY Systems &amp; AI | Practical IT and AI for growing teams</title>
     <meta
       name="description"
-      content="BPNY Systems & AI helps small businesses, founders, and growing teams across the U.S. untangle their IT, automate the busywork, and put AI to work — without the hype. Buffalo built. Available nationwide."
+      content="BPNY Systems & AI helps small businesses, founders and growing teams across the U.S. clean up their IT, automate the busywork and put AI to work. Based in East Aurora, NY. Available nationwide."
     >
     <meta name="geo.region" content="US">
-    <meta property="og:title" content="BPNY Systems &amp; AI | Buffalo-Built IT and AI for Teams Across the U.S.">
+    <meta name="theme-color" content="#F2EDE2">
+    <meta property="og:title" content="BPNY Systems &amp; AI | Practical IT and AI for growing teams">
     <meta
       property="og:description"
-      content="Practical IT, small-business partnerships, and useful AI — built with Buffalo grit, available in any U.S. market."
+      content="Enterprise IT experience, pointed at teams that run lean. Based in East Aurora, NY. Available nationwide."
     >
     <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="assets/logo/bpny-mark-icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="styles.css?v=about-kicker">
+    <link rel="stylesheet" href="styles.css?v=paper-ink">
+    <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
-    <header class="site-header" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="BPNY Systems and AI home">
-        <span class="brand-mark">BP</span>
-        <span>BPNY Systems &amp; AI<small>Buffalo Built &middot; Nationwide</small></span>
-      </a>
-      <nav class="nav-links" aria-label="Main">
-        <a href="#services">Services</a>
-        <a href="#approach">Game Plan</a>
-        <a href="#local">Buffalo Built</a>
-        <a href="#about">About</a>
-        <a class="button primary" href="#contact">Let's Talk</a>
-      </nav>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="BPNY Systems and AI, home">
+          <img src="assets/logo/bpny-wordmark.svg" alt="BPNY/" width="104" height="40">
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a href="#services">Services</a>
+          <a href="#approach">Approach</a>
+          <a href="#about">About</a>
+          <a class="button small" href="#contact">Get in touch</a>
+        </nav>
+      </div>
     </header>
 
-    <main id="top">
-      <!-- ===================== HERO ===================== -->
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="snow" id="snow" aria-hidden="true"></div>
-
-        <div class="hero-inner">
-          <p class="kicker light">Buffalo Built &middot; Any U.S. Market</p>
-          <h1 id="hero-title">
-            Smart systems. Useful AI. <span class="pop">Way fewer</span> tech headaches.
-          </h1>
-          <p class="hero-copy">
-            We help small businesses, founders, and growing teams clean up the SaaS sprawl,
-            automate the boring stuff, lock down access, and put AI to work — without turning
-            your shop into somebody's science experiment. Buffalo grit, national reach, and
-            serious IT delivered like a teammate, not a vendor.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#contact">Book a Consultation</a>
-            <a class="button secondary" href="#services">See the Playbook</a>
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="label" data-reveal>IT &amp; AI consulting &mdash; East Aurora, NY &rarr; nationwide</p>
+            <h1 id="hero-title" class="display-xl lines">
+              <span class="line"><span>Smart systems.</span></span>
+              <span class="line"><span>Useful AI.</span></span>
+              <span class="line"><span><em>Fewer tech headaches.</em></span></span>
+            </h1>
+            <p class="body-l" data-reveal>
+              We help small businesses, founders and growing teams clean up SaaS sprawl,
+              automate the boring parts, lock down access and put AI to work, without
+              turning the business into an experiment.
+            </p>
+            <div class="actions" data-reveal>
+              <a class="button" href="#contact">Book a consultation</a>
+              <a class="link-arrow" href="#services">See the services</a>
+            </div>
           </div>
-          <p class="hero-tag"><span class="dot"></span> Built in the 716 &middot; Serving teams coast to coast</p>
+          <figure class="hero-art" data-reveal>
+            <canvas data-halftone aria-label="Halftone still life of a sphere on a plinth"></canvas>
+            <figcaption class="label">Fig. 01 &mdash; Still life, dot screen 45&deg;</figcaption>
+          </figure>
         </div>
-
-        <!-- Art-deco Buffalo skyline: City Hall, Electric Tower, grain elevators, waterfront -->
-        <svg class="skyline" viewBox="0 0 1440 260" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
-          <defs>
-            <linearGradient id="bldg" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#0e2b54"/>
-              <stop offset="1" stop-color="#081a37"/>
-            </linearGradient>
-            <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#15406b"/>
-              <stop offset="1" stop-color="#061a37"/>
-            </linearGradient>
-          </defs>
-
-          <!-- Lake Erie waterline -->
-          <rect x="0" y="232" width="1440" height="28" fill="url(#lake)"/>
-          <g fill="rgba(255,255,255,0.08)">
-            <rect x="0" y="234" width="1440" height="1.5"/>
-            <rect x="120" y="240" width="60" height="1.5"/>
-            <rect x="980" y="244" width="90" height="1.5"/>
-            <rect x="520" y="238" width="70" height="1.5"/>
-          </g>
-
-          <g fill="url(#bldg)">
-            <!-- left low-rise -->
-            <rect x="20"  y="170" width="70" height="90"/>
-            <rect x="96"  y="150" width="54" height="110"/>
-            <!-- grain elevators (waterfront cylinders) -->
-            <rect x="160" y="175" width="22" height="85"/>
-            <rect x="184" y="175" width="22" height="85"/>
-            <rect x="208" y="175" width="22" height="85"/>
-            <rect x="232" y="175" width="22" height="85"/>
-            <rect x="156" y="170" width="102" height="8"/>
-
-            <!-- Electric Tower (art-deco stepped spire) -->
-            <rect x="300" y="120" width="60" height="140"/>
-            <rect x="312" y="92"  width="36" height="34"/>
-            <rect x="322" y="70"  width="16" height="26"/>
-            <rect x="328" y="52"  width="4"  height="20"/>
-
-            <!-- mid block -->
-            <rect x="386" y="158" width="86" height="102"/>
-            <rect x="486" y="138" width="64" height="122"/>
-
-            <!-- Buffalo City Hall (stepped art-deco tower, center landmark) -->
-            <rect x="600" y="200" width="220" height="60"/>      <!-- broad base -->
-            <rect x="648" y="150" width="124" height="56"/>      <!-- mid step -->
-            <rect x="676" y="86"  width="68"  height="68"/>      <!-- tower -->
-            <rect x="690" y="60"  width="40"  height="30"/>      <!-- crown step -->
-            <rect x="704" y="44"  width="12"  height="18"/>      <!-- finial -->
-
-            <!-- right mid-rise -->
-            <rect x="852"  y="150" width="70"  height="110"/>
-            <rect x="936"  y="172" width="92"  height="88"/>
-            <rect x="1042" y="130" width="58"  height="130"/>
-            <rect x="1054" y="108" width="34"  height="24"/>
-
-            <!-- Mohawk / power building block -->
-            <rect x="1120" y="160" width="120" height="100"/>
-            <rect x="1150" y="132" width="60"  height="30"/>
-            <rect x="1172" y="116" width="16"  height="18"/>
-
-            <!-- far right low-rise -->
-            <rect x="1256" y="184" width="80" height="76"/>
-            <rect x="1342" y="168" width="78" height="92"/>
-          </g>
-
-          <!-- lit windows -->
-          <g fill="#ffb81c" opacity="0.9">
-            <rect x="694" y="98"  width="6" height="9"/>
-            <rect x="708" y="98"  width="6" height="9"/>
-            <rect x="722" y="98"  width="6" height="9"/>
-            <rect x="694" y="116" width="6" height="9"/>
-            <rect x="722" y="116" width="6" height="9"/>
-            <rect x="318" y="132" width="5" height="8"/>
-            <rect x="338" y="132" width="5" height="8"/>
-            <rect x="318" y="152" width="5" height="8"/>
-            <rect x="1060" y="150" width="5" height="8"/>
-            <rect x="1078" y="150" width="5" height="8"/>
-            <rect x="506" y="158" width="5" height="8"/>
-            <rect x="524" y="158" width="5" height="8"/>
-          </g>
-        </svg>
       </section>
 
-      <!-- ===================== SCOREBOARD ===================== -->
-      <section class="scoreboard" aria-label="Experience by the numbers">
-        <div class="wrap">
-          <div class="scoreboard-inner">
-            <div class="score">
-              <b>725+</b>
-              <span>global employees supported across enterprise IT operations</span>
-            </div>
-            <div class="score">
-              <b>$500K&ndash;$1M</b>
-              <span>annual technology budgets owned and managed</span>
-            </div>
-            <div class="score">
-              <b>SOC&nbsp;2 &middot; PCI &middot; SOX</b>
-              <span>audit-ready, compliance-aware operations</span>
-            </div>
-            <div class="score">
-              <b>$50K+</b>
-              <span>annual vendor savings found and delivered</span>
-            </div>
+      <!-- ============ NUMBERS ============ -->
+      <section class="numbers" aria-label="Experience by the numbers">
+        <div class="wrap numbers-grid">
+          <div class="stat" data-reveal>
+            <b class="stat-num" data-count="725" data-suffix="+">725+</b>
+            <span>employees supported across enterprise IT operations</span>
+          </div>
+          <div class="stat" data-reveal>
+            <b class="stat-num">$500K&ndash;1M</b>
+            <span>annual technology budgets owned and managed</span>
+          </div>
+          <div class="stat" data-reveal>
+            <b class="stat-num">SOC&nbsp;2 &middot; PCI &middot; SOX</b>
+            <span>audit-ready, compliance-aware operations</span>
+          </div>
+          <div class="stat" data-reveal>
+            <b class="stat-num"><mark class="hl" data-count="50" data-prefix="$" data-suffix="K+">$50K+</mark></b>
+            <span>annual vendor savings found and delivered</span>
           </div>
         </div>
       </section>
 
-      <!-- ===================== INTRO ===================== -->
-      <section class="section intro">
-        <div class="wrap wrap-narrow">
-          <p class="kicker" style="justify-content:center;">Where BPNY Fits</p>
-          <h2>AI works a whole lot better when your IT isn't held together with sticky notes.</h2>
-          <p class="lead">
-            Most shops don't need a moonshot. They need someone who can spot the messy
-            workflows, tidy up the systems around them, and make practical fixes people
-            will actually use on a Tuesday. That's the whole job — whether you're around
-            the corner in the 716 or running a team three time zones away.
-          </p>
+      <!-- ============ STATEMENT (field) ============ -->
+      <section class="statement" aria-labelledby="statement-title">
+        <div class="statement-grid">
+          <div class="statement-copy">
+            <p class="label on-field" data-reveal>BPNY/field-notes &mdash; 001</p>
+            <h2 id="statement-title" class="display-l" data-reveal>
+              AI works a lot better when your IT isn&rsquo;t held together with sticky notes.
+            </h2>
+            <p class="body-l" data-reveal>
+              Most teams don&rsquo;t need a moonshot. They need someone to find the messy
+              workflows, tidy the systems around them and make fixes people will actually use
+              on a Tuesday.
+            </p>
+          </div>
+          <div class="statement-art" role="img" aria-label="Line-screen halftone of a coiled cable"></div>
         </div>
       </section>
 
-      <!-- ===================== WHO WE WORK WITH ===================== -->
-      <section id="who" class="section who">
+      <!-- ============ SERVICES ============ -->
+      <section class="section" id="services" aria-labelledby="services-title">
         <div class="wrap">
           <div class="section-head">
-            <div>
-              <p class="kicker">Who It's For</p>
-              <h2>Operators, owners, and people who actually have to make payroll.</h2>
-            </div>
-            <p class="lead">
-              Remote-first by default. On-site when the work calls for it.
-              If your team is in the U.S., you're in range.
+            <p class="label" data-reveal>BPNY/playbook</p>
+            <h2 id="services-title" class="display-l" data-reveal>The work that keeps showing up on Monday morning.</h2>
+            <p class="body-l muted" data-reveal>
+              Start with an assessment, a targeted fix, or steady fractional guidance as you grow.
             </p>
+          </div>
+
+          <ol class="services">
+            <li class="service" data-reveal>
+              <span class="service-num">01</span>
+              <h3 class="headline">AI readiness &amp; workflow assessment</h3>
+              <p>Find where AI saves real time and cuts repetitive work, without risky data habits.</p>
+            </li>
+            <li class="service" data-reveal>
+              <span class="service-num">02</span>
+              <h3 class="headline">Onboarding &amp; offboarding automation</h3>
+              <p>Reliable joiner, mover and leaver workflows across apps, devices, access and approvals.</p>
+            </li>
+            <li class="service" data-reveal>
+              <span class="service-num">03</span>
+              <h3 class="headline">SaaS cleanup &amp; vendor optimization</h3>
+              <p>Tool ownership, license waste, renewals, and the apps nobody remembers buying.</p>
+            </li>
+            <li class="service" data-reveal>
+              <span class="service-num">04</span>
+              <h3 class="headline">Knowledge management &amp; SOPs</h3>
+              <p>Documentation that stays searchable, current and genuinely useful.</p>
+            </li>
+            <li class="service" data-reveal>
+              <span class="service-num">05</span>
+              <h3 class="headline">Secure AI policy &amp; enablement</h3>
+              <p>Clear rules for AI tools, data handling and review that a team can actually follow.</p>
+            </li>
+            <li class="service" data-reveal>
+              <span class="service-num">06</span>
+              <h3 class="headline">Fractional IT operations</h3>
+              <p>Senior IT judgment for growing teams, well before a full-time hire makes sense.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ APPROACH (ink) ============ -->
+      <section class="section ink" id="approach" aria-labelledby="approach-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="label" data-reveal>How it runs</p>
+            <h2 id="approach-title" class="display-l" data-reveal>
+              From &ldquo;why is this so painful?&rdquo; to &ldquo;that actually works now.&rdquo;
+            </h2>
+          </div>
+          <ol class="steps" data-steps>
+            <li class="step" data-reveal>
+              <span class="step-num">1 / 4</span>
+              <h3 class="headline">Discover</h3>
+              <p>Interview the people involved, map the systems, and separate real fires from background noise.</p>
+              <code>$ inventory --apps --owners</code>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step-num">2 / 4</span>
+              <h3 class="headline">Prioritize</h3>
+              <p>Score each opportunity on effort, risk, cost, data sensitivity and the return you&rsquo;ll actually feel.</p>
+              <code>$ score --risk --roi</code>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step-num">3 / 4</span>
+              <h3 class="headline">Implement</h3>
+              <p>Ship focused automations, policies and system changes, each with a named owner.</p>
+              <code>$ deploy --dry-run</code>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step-num">4 / 4</span>
+              <h3 class="headline">Enable</h3>
+              <p>Train the team, hand off processes that hold up, and line up the next set of wins.</p>
+              <code>$ handoff --docs</code>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ WHO ============ -->
+      <section class="section" id="who" aria-labelledby="who-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="label" data-reveal>Who it&rsquo;s for</p>
+            <h2 id="who-title" class="display-l" data-reveal>Operators, owners, and the people who make payroll.</h2>
+            <p class="body-l muted" data-reveal>Remote-first. On-site when the work calls for it. If your team is in the U.S., you&rsquo;re in range.</p>
           </div>
           <div class="who-grid">
-            <article class="who-card">
-              <span class="badge" aria-hidden="true">&#128295;</span>
-              <h3>Operators in the thick of it</h3>
-              <p>
-                Systems have to hold up when it's busy, not just look sharp in a slide deck.
-                That includes time in restaurant technology — useful background, not the whole
-                pitch. I'll talk shop without making you learn a new dialect.
-              </p>
+            <article class="who" data-reveal>
+              <p class="label">A &mdash; Operators</p>
+              <h3 class="headline">Systems that hold up when it&rsquo;s busy</h3>
+              <p>Not just ones that look sharp in a slide deck. We&rsquo;ll talk shop without making you learn a new dialect.</p>
             </article>
-            <article class="who-card">
-              <span class="badge" aria-hidden="true">&#128101;</span>
-              <h3>Small businesses &amp; partners</h3>
-              <p>
-                I've sat on both sides of the vendor table — negotiating software partnerships,
-                cutting waste, and keeping the tools a growing shop actually needs. If you've
-                outgrown "the person who knows the passwords," that's the work.
-              </p>
+            <article class="who" data-reveal>
+              <p class="label">B &mdash; Small businesses</p>
+              <h3 class="headline">Past &ldquo;the person who knows the passwords&rdquo;</h3>
+              <p>We&rsquo;ve sat on both sides of the vendor table: negotiating partnerships, cutting waste, keeping the tools you need.</p>
             </article>
-            <article class="who-card">
-              <span class="badge" aria-hidden="true">&#128640;</span>
-              <h3>Founders &amp; entrepreneurs</h3>
-              <p>
-                You don't need a 40-person IT department. You need someone who will tell you
-                what to skip, what to automate, and what to leave alone — then actually build it.
-                Straight talk, no theater.
-              </p>
+            <article class="who" data-reveal>
+              <p class="label">C &mdash; Founders</p>
+              <h3 class="headline">No 40-person IT department required</h3>
+              <p>What to skip, what to automate and what to leave alone, then we build it.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- ===================== SERVICES ===================== -->
-      <section id="services" class="section">
-        <div class="wrap">
-          <div class="section-head">
-            <div>
-              <p class="kicker">The Playbook</p>
-              <h2>The tech work that keeps showing up on Monday morning.</h2>
-            </div>
-            <p class="lead">
-              Start with a quick assessment, a targeted fix, or steady fractional guidance
-              as your team grows. Pick the play that fits.
-            </p>
-          </div>
-
-          <div class="service-grid">
-            <article class="service-card">
-              <span class="jersey">01</span>
-              <h3>AI Readiness &amp; Workflow Assessment</h3>
-              <p>Find the workflows where AI can save real time and cut repetitive work — without risky data habits.</p>
-            </article>
-            <article class="service-card">
-              <span class="jersey">02</span>
-              <h3>Onboarding &amp; Offboarding Automation</h3>
-              <p>Reliable employee lifecycle workflows across apps, devices, access, docs, and approvals.</p>
-            </article>
-            <article class="service-card">
-              <span class="jersey">03</span>
-              <h3>SaaS Cleanup &amp; Vendor Optimization</h3>
-              <p>Review tool ownership, license waste, renewals, and the apps nobody remembers buying.</p>
-            </article>
-            <article class="service-card">
-              <span class="jersey">04</span>
-              <h3>Knowledge Management &amp; SOPs</h3>
-              <p>Documentation systems that keep internal knowledge searchable, current, and genuinely useful.</p>
-            </article>
-            <article class="service-card">
-              <span class="jersey">05</span>
-              <h3>Secure AI Policy &amp; Enablement</h3>
-              <p>Clear guidance for AI tools, data handling, and review practices your team can actually follow.</p>
-            </article>
-            <article class="service-card">
-              <span class="jersey">06</span>
-              <h3>Fractional IT Operations Advisory</h3>
-              <p>Better IT decisions for growing teams — long before you're ready for a full-time senior hire.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== GAME PLAN (approach) ===================== -->
-      <section id="approach" class="section gameplan">
-        <div class="wrap">
-          <p class="kicker light">The Game Plan</p>
-          <h2>From "why is this so painful?" to "nice, that actually works now."</h2>
-          <div class="drive">
-            <div class="play">
-              <span class="down"><span class="num">1</span> First Down</span>
-              <h3>Discover</h3>
-              <p>Interview stakeholders, map the systems, and separate the real fires from background noise — same zip code or three time zones apart.</p>
-            </div>
-            <div class="play">
-              <span class="down"><span class="num">2</span> Second Down</span>
-              <h3>Prioritize</h3>
-              <p>Score opportunities by effort, risk, cost, data sensitivity, and the return you'll actually feel.</p>
-            </div>
-            <div class="play">
-              <span class="down"><span class="num">3</span> Third Down</span>
-              <h3>Implement</h3>
-              <p>Ship focused automations, policies, and system changes — each with a clear owner.</p>
-            </div>
-            <div class="play">
-              <span class="down"><span class="num">4</span> The Score</span>
-              <h3>Enable</h3>
-              <p>Train the team, hand off processes that hold up, and line up the next set of wins.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== LOCAL FLAVOR ===================== -->
-      <section id="local" class="section local">
-        <div class="wrap">
-          <div class="section-head">
-            <div>
-              <p class="kicker">Buffalo Built</p>
-              <h2>Local grit. National reach. Allergic to overcomplication.</h2>
-            </div>
-            <p class="lead">
-              The 716 is where the work ethic comes from — not the edge of the service area.
-              BPNY is for any U.S. team that wants technology useful, explainable, and worth every dollar.
-            </p>
-          </div>
-          <p class="reach-banner">
-            <strong>East Aurora, NY</strong>
-            <span>Working with operators and growing teams in every U.S. market.</span>
-          </p>
-          <div class="local-grid">
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#127963;&#65039;</span>
-              <h3>City Hall Clarity</h3>
-              <p>Make ownership, access, and process visible enough that decisions stop hiding in side conversations.</p>
-            </article>
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#127754;</span>
-              <h3>Lake Erie Resilience</h3>
-              <p>Build workflows that hold up when schedules shift, people change roles, or the busy season rolls in.</p>
-            </article>
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#10052;&#65039;</span>
-              <h3>Lake-Effect Grit</h3>
-              <p>We don't fold when it gets messy. Like a January in Buffalo, the plan keeps moving no matter the conditions.</p>
-            </article>
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#127944;</span>
-              <h3>Game-Day Urgency</h3>
-              <p>Move with the energy of a fourth-quarter drive — but keep the playbook simple enough for the whole team.</p>
-            </article>
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#9889;</span>
-              <h3>Electric Tower Standards</h3>
-              <p>Old-school craftsmanship, modern tools. Things should be built to last and look sharp doing it.</p>
-            </article>
-            <article class="local-card">
-              <span class="badge" aria-hidden="true">&#129744;</span>
-              <h3>Straight-Up Honest</h3>
-              <p>No jargon walls, no mystery invoices. If a project isn't worth it, you'll hear that first.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== ABOUT ===================== -->
-      <section id="about" class="section">
+      <!-- ============ ABOUT ============ -->
+      <section class="section about" id="about" aria-labelledby="about-title">
         <div class="wrap about-grid">
-          <aside class="about-card">
-            <p class="about-kicker">About</p>
-            <p class="name">Brandon Pierce</p>
-            <p class="loc">IT Leader &middot; East Aurora, NY &middot; Serving the U.S.</p>
-            <ul>
-              <li>Enterprise IT operations</li>
-              <li>Small-business &amp; vendor partnerships</li>
-              <li>Identity &amp; access automation</li>
-              <li>Audit-ready, compliance-aware delivery</li>
-            </ul>
-          </aside>
+          <figure class="about-art" data-reveal>
+            <img src="assets/img/plinth-dot-oxblood.png" alt="Oxblood dot-screen halftone of a sphere on stepped plinths" width="1080" height="1350" loading="lazy">
+          </figure>
           <div class="about-copy">
-            <p class="kicker">Enterprise chops, operator scale</p>
-            <h2>Big-company IT, pointed at people who actually run the place.</h2>
-            <p>
-              Brandon Pierce is an IT leader based in East Aurora, New York. His background
-              includes enterprise IT operations, identity and access automation, and supporting
-              teams across the country — including a stretch in restaurant technology. He's
-              spent a lot of time in the trenches with small-business operators, software
-              partners, and entrepreneurs who needed a straight-talking IT counterpart more
-              than they needed another consultant.
+            <p class="label" data-reveal>About &mdash; Brandon Pierce</p>
+            <h2 id="about-title" class="display-l" data-reveal>Big-company IT, pointed at teams that run lean.</h2>
+            <p class="body-l" data-reveal>
+              Brandon Pierce is an IT leader based in East Aurora, New York. His background spans
+              enterprise IT operations, identity and access automation, SaaS administration and
+              vendor negotiations, plus the messy projects that come with growth, acquisitions and
+              migrations, including a stretch in restaurant technology.
             </p>
-            <p>
-              His background includes running enterprise IT operations, identity and access
-              automation, SaaS administration, vendor negotiations, and the messy projects
-              that show up during growth, acquisitions, and migrations. BPNY takes that
-              playbook nationwide — minus the enterprise overhead.
+            <p data-reveal>
+              BPNY takes that playbook to small businesses, software partners and founders who need a
+              straight-talking IT counterpart more than another consultant. Minus the enterprise overhead.
             </p>
+            <dl class="facts" data-reveal>
+              <div><dt class="label">Based</dt><dd>East Aurora, NY</dd></div>
+              <div><dt class="label">Serving</dt><dd>Teams across the U.S.</dd></div>
+              <div><dt class="label">Focus</dt><dd>Identity &amp; access, automation, vendor management, compliance</dd></div>
+            </dl>
           </div>
         </div>
       </section>
 
-      <!-- ===================== CTA ===================== -->
-      <section class="section cta">
-        <div class="wrap">
-          <p class="kicker light" style="justify-content:center;">Start small, build momentum</p>
-          <h2>Let's find the first few workflows where AI and automation pay for themselves.</h2>
-          <p class="lead">No giant overhaul. No 40-slide deck. Just a short conversation about what's slowing you down — wherever you hang your shingle.</p>
-          <a class="button primary" href="#contact">Start a Conversation</a>
-        </div>
-      </section>
-
-      <!-- ===================== CONTACT ===================== -->
-      <section id="contact" class="section">
+      <!-- ============ CONTACT ============ -->
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div class="wrap contact-grid">
           <div class="contact-copy">
-            <p class="kicker">Tell Me What Hurts</p>
-            <h2>Bring the messy workflow, the mystery app bill, or the AI idea.</h2>
-            <p>
-              Share a little about your organization, your market, and what you'd like to improve.
-              Doesn't matter if you're around the corner or across the country. The form opens an
-              email with your details — no extra platform sitting between us, no spam funnel.
+            <p class="label" data-reveal>Start small</p>
+            <h2 id="contact-title" class="display-l" data-reveal>Bring the messy workflow, the mystery app bill, or the AI idea.</h2>
+            <p class="body-l" data-reveal>
+              No giant overhaul, no 40-slide deck. Tell us a little about your team and what&rsquo;s
+              slowing you down. The form opens an email with your details, so there&rsquo;s no
+              platform in between.
+            </p>
+            <p class="direct" data-reveal>
+              <span class="label">Or write directly</span>
+              <a href="mailto:info@bpnyitai.com">info@bpnyitai.com</a>
             </p>
           </div>
 
           <form
-            class="contact-form"
+            class="form"
             action="mailto:info@bpnyitai.com?subject=BPNY%20Systems%20%26%20AI%20consultation"
             method="post"
             enctype="text/plain"
+            data-reveal
           >
-            <div class="form-row">
+            <div class="field">
               <label for="name">Name</label>
               <input id="name" name="Name" type="text" autocomplete="name" required>
             </div>
-            <div class="form-row">
+            <div class="field">
               <label for="email">Email</label>
               <input id="email" name="Email" type="email" autocomplete="email" required>
             </div>
-            <div class="form-row">
+            <div class="field">
               <label for="company">Organization</label>
               <input id="company" name="Organization" type="text" autocomplete="organization">
             </div>
-            <div class="form-row">
-              <label for="location">City / market</label>
-              <input id="location" name="Market" type="text" autocomplete="address-level2" placeholder="Any U.S. city">
-            </div>
-            <div class="form-row">
-              <label for="org-size">Organization size</label>
+            <div class="field">
+              <label for="org-size">Team size</label>
               <select id="org-size" name="Organization size" required>
                 <option value="">Select a range</option>
-                <option>1-10 people</option>
-                <option>11-50 people</option>
-                <option>51-200 people</option>
-                <option>201-500 people</option>
+                <option>1&ndash;10 people</option>
+                <option>11&ndash;50 people</option>
+                <option>51&ndash;200 people</option>
+                <option>201&ndash;500 people</option>
                 <option>500+ people</option>
               </select>
             </div>
-            <div class="form-row">
-              <label for="industry">What kind of shop?</label>
-              <select id="industry" name="Industry">
-                <option value="">Select one</option>
-                <option>Restaurant / hospitality</option>
-                <option>Small business</option>
-                <option>Startup / founder</option>
-                <option>Professional services</option>
-                <option>Other</option>
-              </select>
-            </div>
-            <fieldset class="issue-fieldset">
-              <legend>Main issues to address</legend>
-              <label><input type="checkbox" name="Main issues" value="AI readiness"> AI readiness</label>
-              <label><input type="checkbox" name="Main issues" value="Workflow automation"> Workflow automation</label>
-              <label><input type="checkbox" name="Main issues" value="SaaS cleanup"> SaaS cleanup</label>
-              <label><input type="checkbox" name="Main issues" value="Access and security"> Access and security</label>
-              <label><input type="checkbox" name="Main issues" value="Documentation and SOPs"> Documentation and SOPs</label>
-              <label><input type="checkbox" name="Main issues" value="Fractional IT guidance"> Fractional IT guidance</label>
+            <fieldset class="field full chips">
+              <legend>What needs attention</legend>
+              <label><input type="checkbox" name="Main issues" value="AI readiness"><span>AI readiness</span></label>
+              <label><input type="checkbox" name="Main issues" value="Workflow automation"><span>Automation</span></label>
+              <label><input type="checkbox" name="Main issues" value="SaaS cleanup"><span>SaaS cleanup</span></label>
+              <label><input type="checkbox" name="Main issues" value="Access and security"><span>Access &amp; security</span></label>
+              <label><input type="checkbox" name="Main issues" value="Documentation and SOPs"><span>Docs &amp; SOPs</span></label>
+              <label><input type="checkbox" name="Main issues" value="Fractional IT guidance"><span>Fractional IT</span></label>
             </fieldset>
-            <div class="form-row full">
-              <label for="message">What's going on?</label>
-              <textarea id="message" name="Message" rows="5" placeholder="A few sentences is perfect."></textarea>
+            <div class="field full">
+              <label for="message">What&rsquo;s going on?</label>
+              <textarea id="message" name="Message" rows="4" placeholder="A few sentences is plenty."></textarea>
             </div>
-            <button class="button primary" type="submit">Send the Details</button>
+            <div class="full">
+              <button class="button" type="submit">Send the details</button>
+            </div>
           </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-inner">
-        <a class="brand" href="#top">
-          <span class="brand-mark">BP</span>
-          <span>BPNY Systems &amp; AI</span>
-        </a>
-        <a href="mailto:info@bpnyitai.com">info@bpnyitai.com</a>
-        <span class="made">Buffalo Built &middot; Serving teams across the U.S.</span>
+      <div class="wrap footer-inner">
+        <img src="assets/logo/bpny-wordmark.svg" alt="BPNY/" width="88" height="34">
+        <span class="label">BPNY Systems &amp; AI &middot; East Aurora, NY &middot; Serving the U.S.</span>
+        <span class="footer-links">
+          <a href="mailto:info@bpnyitai.com">info@bpnyitai.com</a>
+          <span class="label">@BPNY_IT</span>
+        </span>
       </div>
     </footer>
 
@@ -496,7 +335,7 @@
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "BPNY Systems & AI",
-        "description": "Practical IT and AI consulting for small businesses, founders, and growing teams across the United States. Buffalo built, available nationwide.",
+        "description": "Practical IT and AI consulting for small businesses, founders and growing teams across the United States. Based in East Aurora, NY.",
         "email": "info@bpnyitai.com",
         "founder": {
           "@type": "Person",
@@ -509,10 +348,7 @@
             "addressCountry": "US"
           }
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        },
+        "areaServed": { "@type": "Country", "name": "United States" },
         "serviceType": [
           "IT consulting",
           "AI readiness",
@@ -521,29 +357,7 @@
         ]
       }
     </script>
-    <script>
-      // Lake-effect snow — lightweight, respects reduced-motion.
-      (function () {
-        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-        var snow = document.getElementById("snow");
-        if (!snow) return;
-        var count = window.innerWidth < 640 ? 26 : 60;
-        var frag = document.createDocumentFragment();
-        for (var i = 0; i < count; i++) {
-          var f = document.createElement("span");
-          f.className = "flake";
-          var size = (Math.random() * 4 + 2).toFixed(1);
-          f.style.width = size + "px";
-          f.style.height = size + "px";
-          f.style.left = (Math.random() * 100).toFixed(2) + "%";
-          f.style.opacity = (Math.random() * 0.5 + 0.3).toFixed(2);
-          f.style.animationDuration = (Math.random() * 8 + 7).toFixed(1) + "s";
-          f.style.animationDelay = (-Math.random() * 12).toFixed(1) + "s";
-          f.style.setProperty("--drift", (Math.random() * 80 - 40).toFixed(0) + "px");
-          frag.appendChild(f);
-        }
-        snow.appendChild(frag);
-      })();
-    </script>
+    <script src="assets/halftone.js" defer></script>
+    <script src="assets/site.js" defer></script>
   </body>
 </html>
